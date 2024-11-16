@@ -1,0 +1,10 @@
+        <img id="Image-1" src="Imagem/Multimedia_(7).jpg">
+        <button onclick="mudarFonte()">Clica</button>
+
+        function mudarFonte() {
+    let imagem = document.getElementById("Image-1");
+
+    let attribute = imagem.getAttribute("src");
+
+    imagem.setAttribute("src", "Imagem/like.jpg");
+}

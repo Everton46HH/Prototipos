@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cardapio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+        
+        </script>
+    </head>
+    <body>
+        <div class="global">
+        <header class="container">
+
+            <div id="title-1">Comidas</div>
+            <div id="title-2">Bebidas</div>
+            
+        </header>
+
+            <main>
+                <div id="Comidas">
+                    
+                    <ol>
+                        <li>1. Pão De Queijo           <h1>2,00 R$<input type="checkbox" id="a" onclick="checar()"></h1></li>
+                        <li>2. Pão Sem Glúten          <h1>4,50 R$<input type="checkbox" id="b"></h1></li>
+                        <li>3. Pão na chapa            <h1>3,50 R$<input type="checkbox" id="c"></h1></li>
+                        <li>4. Pão C/manteiga          <h1>3,00 R$<input type="checkbox" id="d"></h1></li>
+                    </ol>
+
+                </div>
+                
+                <div id="Bebidas">
+
+                    <ol>
+                        <li>1. Café                     <h1>2,00 R$<input type="checkbox" id="e"> </h1></h1>
+                        <li>2. Café c/Leite             <h1>2,50 R$<input type="checkbox" id="f"> </h1></li>
+                        <li>3. Suco                     <h1>2,00 R$<input type="checkbox" id="g"> </h1></li>
+                        <li>4. Refrigerante             <h1>8,00 R$<input type="checkbox" id="h"> </h1></li>
+
+                    </ol>
+                </div>
+            </main>
+            <footer>**OS BOLOS SÂO VENDIDOS POR PEDAÇOS DE 250g</footer>
+            <div id="title-3">Bebidas</div>
+            <div id="none">
+                <div id="Bebidas-2">
+                    <ol>
+                        <li>1. Café                        <h1>2,00 R$<input type="checkbox" id="e"> </h1></h1>
+                        <li>2. Suco                        <h1>2,00 R$<input type="checkbox" id="f"> </h1></li>
+                        <li>3. Café c/Leite                <h1>2,50 R$<input type="checkbox" id="g"> </h1></li>
+                        <li>4. Refrigerante                <h1>8,00 R$<input type="checkbox" id="h"> </h1></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <div id="botoes">
+            <button id="previous-page" onclick="previousPage()" >Voltar</button>
+
+            <button onclick="calc()" id="calc">Calcular Compra</button>
+
+            <button id="next-page" onclick="nextPage()">Próxima</button>
+        </div>
+
+        <div id="resultado">Total a pagar :  </div>
+    </body>
+    <script src="index.js"></script>
+</html>

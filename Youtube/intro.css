@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+}
+
+.barra-pesquisa{
+    font-size: 20px;
+    margin: 0 auto 0 25px;
+    background-color: rgb(71, 66, 66);
+    border: solid rgb(85, 77, 77);
+    border: none;
+    color: white;
+    width: 90%;
+}
+div{
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgb(71, 66, 66);
+    border: 1px solid rgb(85, 77, 77);
+    border-bottom-left-radius: 17px;
+    border-top-left-radius: 17px;
+    padding: 5px;
+    color: white;
+}

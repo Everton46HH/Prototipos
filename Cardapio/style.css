@@ -1,0 +1,167 @@
+*{
+    font-family: "Dancing script";
+}
+body{
+    height: 600px;
+}
+.container{
+    margin: 0 auto;
+    display: flex;
+    width: 65%;
+    height:70px;
+}
+#title-1 , #title-2{
+    background-color: rgb(231, 218, 144);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    border: 1px rgb(0, 0, 0) solid;
+}
+main{
+    margin: 0 auto;
+    display: flex;
+    width: 65%;
+}
+#Comidas , #Bebidas{
+    background-color: rgba(199, 195, 113, 0.845);
+    width: 100%;
+    padding-top: 1%;
+    border: 1px black solid;
+}
+li{
+    border-bottom: dashed 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h1{
+    font-size: 100%;
+    font-weight: 100;
+    margin: 0;
+}
+ol{
+    width: 80%;
+    margin: 3px auto;
+    padding-left: 0px;
+}
+footer{
+    margin: 0 auto;
+    width: 65%;
+    background-color: rgba(185, 169, 79, 0.733);
+    align-items: right;
+}
+#none{
+    display: none;
+}
+
+#title-3{
+    display: none;
+}
+#Bebidas-2{
+    display: none;
+}
+#Image-1{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    margin: 0 auto;
+}
+
+button{
+    width: 90px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+@media screen and (min-width:700px) and (max-width: 1000px){
+    .global{
+        height: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas: "a"
+                             "b"
+                             "c"
+                             "d";
+    }
+    .container{
+        grid-area: a;
+    }
+    #title-2{
+        display: none;
+    }
+    #title-3{
+        grid-area: c;
+        display: block;
+        margin: 0 auto;
+        background-color: rgb(231, 218, 144);
+        width: 65%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+        border: 1px rgb(0, 0, 0) solid;
+    }
+    main{
+        grid-area: b;
+    }
+    #Bebidas{
+        display: none;
+    }
+    #Bebidas-2{
+        display: flex;
+        background-color: rgba(199, 195, 113, 0.845);
+        width: 100%;
+        padding-top: 1%;
+        border: 1px black solid;
+    }
+    #none{
+        grid-area: d;
+        margin: 0 auto;
+        display: flex;
+        width: 65%;
+    }
+
+
+}
+
+footer{
+    display: flex;
+}
+#botoes{
+    display:flex;
+    margin: 0 auto;
+    background-color: rgb(231, 218, 144);
+    width: 65%;
+}
+#calc{
+    margin: 0 34%;
+}
+
+#previous-page{
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+#next-page{
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px;
+}
+
+#previous-page , #next-page{
+    background-color: rgb(188, 180, 134);
+    border: 0;
+    color: black;
+    transition: background-color 0.5s , color 0.5s;
+}
+
+#previous-page:hover , #next-page:hover{
+    background-color: rgb(225, 206, 102);
+    opacity: 0.9;
+    color:white;
+}

@@ -1,0 +1,16 @@
+a:hover{
+    color: green;
+}
+a:active{
+    color: red;
+}
+a:visited{
+    color: pink;
+}
+
+#div1{
+    width: 100%;
+    height: 100px;
+    background-image: url(/assets/Images/baixados.jfif);
+    background-repeat: no-repeat;
+}

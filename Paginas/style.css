@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+}
+body{
+    background: whitesmoke;
+}
+
+.menu{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border-radius: 30px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    background-color: rgb(102, 144, 144);
+}
+.nav-item{
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
